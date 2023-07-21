@@ -14,21 +14,21 @@ html,body{
     width: 100%;
     height: 100%;
     background: rgb(210 210 210);
-    display: flex;
+    
     
     
     
 }
 
 h2{
-    font-size: 20px;
+    font-size: 2em;
     color: silver;
     font-weight: 300;
 }
 
 h1{
     color: black ;
-    font-size: 30px;
+    font-size: 3em;
     font-weight: 500;
 }
 
@@ -38,7 +38,8 @@ h1{
 .profile{
     width: 100%;
     height: 20%;
-
+     
+     
 
 }
 
@@ -54,19 +55,23 @@ h1{
     display: flex;
     flex-direction: column;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+min-height: 102em;
+max-height: 200em;
+max-width: 100em;
+min-width: 50em;
 }
 
 .avatar{
-    width: 100px;
-    height: 100px;
+    width: 10em;
+    height: 10em;
     /* margin-top: 10% ; */
 }
 
 .menu{
     width: 50%;
     /* background-color: aqua; */
-    height: 40%;
-    margin-top: 50px;
+    height: 55%;
+    margin-top: 5em;
      
     
     
@@ -82,25 +87,25 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .menu h1{
-    font-size: 50px;
+    font-size: 5em;
 }
 a {
     
     text-decoration: none;
     font-size: 30px;
      text-transform: uppercase;
-     margin-left: 10px;
+     margin-left: 1em;
      
     color: black;
     font-weight:600;
-    transition: .8s;
+    transition: .5s;
 
 }
 
  svg{
-    width: 40px;
-    height: 40px;
-    margin-top: 20px;
+    width: 4em;
+    height: 4em;
+    margin-top: 2em;
     
    
 }
@@ -113,3 +118,25 @@ a:hover{
 svg:hover{
     fill :#47d4ff;
 }
+
+.menu div{
+    margin-top: -3em;
+    width: 100%;
+    margin-bottom: 10em;
+}
+
+.seconddiv{
+   
+    display: flex;
+    /* background-color: #47d4ff; */
+    flex-flow: column;
+}
+
+.seconddiv a{
+    margin-left: 3em;
+    margin-top: -1.5em;
+}
+
+hr{
+    width: 100%;
+    }
